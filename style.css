@@ -1,0 +1,94 @@
+
+
+
+ @import url('https://fonts.cdnfonts.com/css/inter');
+
+                
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #000a1f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+                                                
+}
+
+.signup-container{
+  background-color: #f7f7f7;
+  width: 450px;
+  height: 620px;
+  padding: 50px;
+}
+.title-area{
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #0c6180;
+  font-size: 25px
+  ;
+}
+
+
+.fields{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+ 
+}
+.row{
+  display: flex;
+  column-gap: 15px;
+
+}
+
+.row input{
+  width: 100%;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid #ccc;
+}
+
+.row input::placeholder{
+  color: #0c6180;
+}
+
+.row input:focus{
+  outline-color: #0c6180;
+}
+.terms-and-condition{
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: #0c6180
+  
+}
+.terms-and-condition input{
+  margin-right: 10px;
+}
+
+.submit-button input{
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #0c6180;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button input:hover{
+  background-color: #074a63;
+}
